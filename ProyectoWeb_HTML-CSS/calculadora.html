@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- En la pestaña de head se agregan las características principales del sitio web jfjhkdfjkhi -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title> <!--Titulo del sitio web -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> <!--Agrega la nueva fuente-->
+    <link rel="preload" href="css/style.css" as="style"> <!--Añade velocidad de carga al sitio web-->
+    <link href="css/style.css" rel="stylesheet"> <!--Conecta la hoja de estilos-->
+    <link rel="stylesheet" href="css/normalize.css"> <!--Conecta el stylesheet de normalize-->
+</head>
+<body> <!-- Esta estiqueta sirve para x -->
+    <h1>Calculadora</h1> <!--h1 es para titulos o h->header -->
+    <div class="nav-background">
+        <nav class="navegacion-principal contenedor"> <!--Agregamos dos clases para edición más especifica-->
+            <a href="index.html">Inicio</a>
+            <a href="calculadora.html">Calculadora</a>
+            <a href="pagina2.html">Página 2</a>
+            <a href="pagina3.html">Página 3</a>
+        </nav>
+    </div>
+    <main class="contenedor sombra margen">
+        <section>
+            <h2>Calculadora</h2>
+            <form class="formulario margen">
+                <fieldset>
+                    <legend>Calculadora que programaremos utilizando PHP</legend>
+
+                    <div class="campo"> <!--Los div son el tipo de divisor más genérico, solo se recomienda con formularios o diseños especialles-->
+                        <label>Suma</label>
+                        <div class="fila">
+                            <input class="input-text1" type="number" > <p>+</p> <input class="input-text1" type="number"> <p>=</p> <input class="input-text1" type="number"><!-- checkbox, radio, tel, email, number, -->
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label>Resta</label>
+                        <div class="fila">
+                            <input class="input-text1" type="number"> <p>-</p> <input class="input-text1" type="number"> <p>=</p> <input class="input-text1" type="number">
+                        </div>
+                    </div>
+
+                    <div class="campo"> 
+                        <label>Multiplicación</label>
+                        <div class="fila">
+                            <input class="input-text1" type="number"> <p>X</p> <input class="input-text1" type="number"> <p>=</p> <input class="input-text1" type="number">
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label>División</label>
+                        <div class="fila">
+                            <input class="input-text1" type="number"> <p>÷</p> <input class="input-text1" type="number"> <p>=</p> <input class="input-text1" type="number">
+                        </div>
+                    </div>
+
+                    <div class="centrar margen">
+                        <input class="boton w-100 margen-botones" type="submit" value="Calcular">
+                        <input class="boton w-100" type="submit" value="Cancelar">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados. Guillermo Cacho Valdez.</p>
+    </footer>
+</body> 
+</html>
